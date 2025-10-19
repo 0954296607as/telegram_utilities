@@ -20,5 +20,5 @@ class Notify(ABC):
         time.sleep(interval)
 
     @abstractmethod
-    def try_send_message(self, client_id: int, msg: str) -> bool:
+    def try_send_message(self, client_id: int, message: str) -> bool:
         pass
